@@ -8,7 +8,7 @@ const Section3 = () => {
   return (
     <Box maxW={"100%"} minH={"900px"} display={"flex"}>
       <HStack
-        w={"35%"}
+        w={"33.3%"}
         minH={"900px"}
         bgImage={Tourist1}
         position={"relative"}
@@ -19,14 +19,14 @@ const Section3 = () => {
           backgroundSize: "cover",
           backgroundPosition: "50% 50% ",
           "@media (min-width:1440px) and (max-width:1919px)": {
-            w: "480px",
+            width: "33.3%",
             minHeight: "1024px",
           },
           "@media (min-width:1280px) and (max-width:1439px)": {
-            width: "426.6px",
+            width: "33.3%",
           },
           "@media (min-width:1920px)": {
-            width: "634px",
+            width: "33.3%",
           },
         }}
         _after={{
@@ -54,7 +54,7 @@ const Section3 = () => {
       </HStack>
 
       <HStack
-        w={"35%"}
+        w={"33%"}
         minH={"900px"}
         bgImage={Tourist2}
         position={"relative"}
@@ -63,14 +63,14 @@ const Section3 = () => {
           backgroundSize: "cover",
           backgroundPosition: "50% 50% ",
           "@media (min-width:1440px) and (max-width:1919px)": {
-            w: "480px",
+            width: "33.3%",
             minHeight: "1024px",
           },
           "@media (min-width:1280px) and (max-width:1439px)": {
-            width: "426.6px",
+            width: "33.3%",
           },
           "@media (min-width:1920px)": {
-            width: "634px",
+            width: "33.3%",
           },
         }}
         _after={{
@@ -98,7 +98,7 @@ const Section3 = () => {
       </HStack>
 
       <HStack
-        w={"30%"}
+        w={"33.3%"}
         minH={"900px"}
         bgImage={Tourist3}
         position={"relative"}
@@ -107,14 +107,14 @@ const Section3 = () => {
           backgroundSize: "cover",
           backgroundPosition: "75% 25% ",
           "@media (min-width:1440px) and (max-width:1919px)": {
-            w: "480px",
+            width: "33.3%",
             minHeight: "1024px",
           },
           "@media (min-width:1280px) and (max-width:1439px)": {
-            width: "426.6px",
+            width: "33.3%",
           },
           "@media (min-width:1920px)": {
-            width: "634px",
+            width: "33.3%",
           },
         }}
         _after={{
