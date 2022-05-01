@@ -115,6 +115,7 @@ const Section3 = () => {
           },
           "@media (min-width:1920px)": {
             width: "33.3%",
+            backgroundPosition: "65% 35% ",
           },
         }}
         _after={{
