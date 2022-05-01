@@ -6,7 +6,7 @@ import Tourist3 from "../../assets/Images/tourist3.avif";
 
 const Section3 = () => {
   return (
-    <Box w={"100%"} minH={"900px"} display={"flex"}>
+    <Box maxW={"100%"} minH={"900px"} display={"flex"}>
       <HStack
         w={"35%"}
         minH={"900px"}
@@ -18,6 +18,16 @@ const Section3 = () => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "50% 50% ",
+          "@media (min-width:1440px) and (max-width:1919px)": {
+            w: "480px",
+            minHeight: "1024px",
+          },
+          "@media (min-width:1280px) and (max-width:1439px)": {
+            width: "426.6px",
+          },
+          "@media (min-width:1920px)": {
+            width: "634px",
+          },
         }}
         _after={{
           content: "''",
@@ -52,6 +62,16 @@ const Section3 = () => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "50% 50% ",
+          "@media (min-width:1440px) and (max-width:1919px)": {
+            w: "480px",
+            minHeight: "1024px",
+          },
+          "@media (min-width:1280px) and (max-width:1439px)": {
+            width: "426.6px",
+          },
+          "@media (min-width:1920px)": {
+            width: "634px",
+          },
         }}
         _after={{
           content: "''",
@@ -78,7 +98,7 @@ const Section3 = () => {
       </HStack>
 
       <HStack
-        w={"35%"}
+        w={"30%"}
         minH={"900px"}
         bgImage={Tourist3}
         position={"relative"}
@@ -86,6 +106,16 @@ const Section3 = () => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "75% 25% ",
+          "@media (min-width:1440px) and (max-width:1919px)": {
+            w: "480px",
+            minHeight: "1024px",
+          },
+          "@media (min-width:1280px) and (max-width:1439px)": {
+            width: "426.6px",
+          },
+          "@media (min-width:1920px)": {
+            width: "634px",
+          },
         }}
         _after={{
           content: "''",

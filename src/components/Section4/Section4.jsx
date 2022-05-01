@@ -8,7 +8,18 @@ import property from "../../assets/Images/Property.png";
 const Section4 = () => {
   return (
     <Box w={"100%"} minH={"700px"} display={"flex"} pt={20} mb={20}>
-      <VStack w={"50%"} minH={"700px"} align="flex-start" pl={20}>
+      <VStack
+        w={"50%"}
+        minH={"700px"}
+        align="flex-start"
+        pl={20}
+        sx={{
+          "@media (min-width:1920px) ": {
+            alignItems: "flex-end",
+            pl: 0,
+          },
+        }}
+      >
         <Text
           fontWeight={"bold"}
           fontSize={"30px"}

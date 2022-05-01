@@ -22,7 +22,7 @@ const NavBar = () => {
   return (
     <Box
       w={"100%"}
-      minHeight={"65vh"}
+      minHeight={"780px"}
       position={"relative"}
       px={20}
       pt={5}
@@ -45,7 +45,16 @@ const NavBar = () => {
       }}
     >
       <HStack w={"100%"} zIndex={1000}>
-        <Flex w={"50%"} minheight={"20px"}>
+        <Flex
+          w={"50%"}
+          minheight={"20px"}
+          sx={{
+            "@media (min-width:1280px) and (max-width:1439px)": {
+              gap: 1,
+              w: "65%",
+            },
+          }}
+        >
           <Center
             mx={2}
             w={"35%"}
@@ -185,6 +194,23 @@ const NavBar = () => {
         boxShadow="0px 134px 193px rgba(183, 183, 183, 0.07), 0px 16.7789px 24.1666px rgba(183, 183, 183, 0.035)"
         borderRadius={"10px"}
         pl={5}
+        pr={3}
+        sx={{
+          "@media (min-width:1280px) and (max-width:1439px)": {
+            left: "100px",
+            top: "700px",
+            w: "1100px",
+          },
+          "@media (min-width:1440px) and (max-width:1980px)": {
+            left: "140px",
+            top: "700px",
+          },
+          "@media (min-width:1920px)": {
+            left: "200px",
+            top: "700px",
+            w: "1500px",
+          },
+        }}
       >
         <VStack zIndex={2000} w={"20%"} align="flex-start">
           <Flex align={"center"} gap={3}>

@@ -6,7 +6,7 @@ const Section5 = () => {
   return (
     <Box
       w={"100%"}
-      minHeight={"65vh"}
+      minHeight={"750px"}
       position={"relative"}
       px={20}
       pt={5}

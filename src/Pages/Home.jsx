@@ -10,7 +10,7 @@ import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
-    <Box width="100%" minHeight="100vh">
+    <Box maxWidth="100%" minHeight="100vh">
       <NavBar />
       <Section1 />
       <Section2 />
