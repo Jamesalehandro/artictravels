@@ -70,7 +70,7 @@ const Section3 = () => {
             width: "426.6px",
           },
           "@media (min-width:1920px)": {
-            minWidth: "634px",
+            width: "634px",
           },
         }}
         _after={{
@@ -115,7 +115,6 @@ const Section3 = () => {
           },
           "@media (min-width:1920px)": {
             width: "634px",
-            minWidth: "634px",
           },
         }}
         _after={{
