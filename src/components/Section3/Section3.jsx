@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, HStack, Text } from "@chakra-ui/react";
-import Tourist1 from "../../assets/Images/tourist.avif";
-import Tourist2 from "../../assets/Images/tourist2.avif";
-import Tourist3 from "../../assets/Images/tourist3.avif";
+import girltourist from "../../assets/Images/girltourist.jpg";
+import blackskater from "../../assets/Images/blackskater.jpg";
+import blueskater from "../../assets/Images/blueskater.jpg";
 
 const Section3 = () => {
   return (
@@ -10,7 +10,7 @@ const Section3 = () => {
       <HStack
         w={"33.3%"}
         minH={"900px"}
-        bgImage={Tourist1}
+        bgImage={girltourist}
         position={"relative"}
         justify={"flex-start"}
         align={"flex-end"}
@@ -56,12 +56,12 @@ const Section3 = () => {
       <HStack
         w={"33%"}
         minH={"900px"}
-        bgImage={Tourist2}
+        bgImage={blackskater}
         position={"relative"}
         sx={{
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
-          backgroundPosition: "50% 50% ",
+          backgroundPosition: "30% 70%",
           "@media (min-width:1440px) and (max-width:1919px)": {
             width: "33.3%",
             minHeight: "1024px",
@@ -100,12 +100,12 @@ const Section3 = () => {
       <HStack
         w={"33.3%"}
         minH={"900px"}
-        bgImage={Tourist3}
+        bgImage={blueskater}
         position={"relative"}
         sx={{
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
-          backgroundPosition: "75% 25% ",
+          backgroundPosition: "49% 51% ",
           "@media (min-width:1440px) and (max-width:1919px)": {
             width: "33.3%",
             minHeight: "1024px",

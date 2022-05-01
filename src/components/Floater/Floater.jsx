@@ -7,7 +7,7 @@ import star from "../../assets/Images/star.png";
 import intra from "../../assets/Images/intra.png";
 import mastercard2 from "../../assets/Images/mastercard2.png";
 
-const Section1 = () => {
+const Floater = () => {
   return (
     <HStack
       w={"100%"}
@@ -55,4 +55,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default Floater;

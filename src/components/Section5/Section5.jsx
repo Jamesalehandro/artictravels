@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Button, Text, VStack } from "@chakra-ui/react";
-import snowboarder from "../../assets/Images/snowboader.avif";
+import snowboarder from "../../assets/Images/girlwithskates1.jpg";
 
 const Section5 = () => {
   return (
