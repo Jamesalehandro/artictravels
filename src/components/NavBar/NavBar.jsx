@@ -17,8 +17,20 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import { BiUser, BiChevronDown } from "react-icons/bi";
 import { BsCalendar4 } from "react-icons/bs";
 import mountain from "../../assets/Images/mountain.jpg";
+import { useState } from "react";
 
 const NavBar = () => {
+  const [animae, setAnimae] = useState(false);
+  const handleClick = (e) => {
+    setAnimae((prev) => !prev);
+    if (animae) {
+      e.target.classList.add("animate__shakeX");
+      e.target.classList.remove("animate__bounce");
+    } else {
+      e.target.classList.remove("animate__shakeX");
+      e.target.classList.add("animate__bounce");
+    }
+  };
   return (
     <Box
       w={"100%"}
@@ -114,7 +126,9 @@ const NavBar = () => {
           color="#3E86F5"
           _active={{ border: "none" }}
           _focus={{ border: "none" }}
+          className={"animate__animated"}
           border={"none"}
+          onClick={handleClick}
           sx={{
             _hover: {
               transform: "scale(.97)",
@@ -178,7 +192,8 @@ const NavBar = () => {
               transform: "scale(.97)",
             },
           }}
-          className={"animate__animated animate__backInUp"}
+          onClick={handleClick}
+          className={"animate__animated"}
         >
           Book Here
         </Button>
