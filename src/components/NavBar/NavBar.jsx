@@ -7,7 +7,6 @@ import {
   Circle,
   Flex,
   HStack,
-  Image,
   Spacer,
   Stack,
   Text,
