@@ -347,6 +347,8 @@ const NavBar = () => {
           fontWeight={400}
           color="#ffffff"
           zIndex={1000}
+          className={"animate__animated"}
+          onClick={handleClick}
           width={"183px"}
           height="64px"
           rightIcon={<IoMdAirplane className="transform2" size={"20px"} />}
