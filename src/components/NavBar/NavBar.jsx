@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 import {
   Box,
   Button,
@@ -139,6 +140,7 @@ const NavBar = () => {
           lineHeight="73px"
           color="#ffffff"
           zIndex={1000}
+          className={"animate__animated animate__backInDown"}
           mb={-10}
         >
           Plan the perfect winter trip
@@ -151,6 +153,7 @@ const NavBar = () => {
           color="#ffffff"
           zIndex={1000}
           width={"529px"}
+          className={"animate__animated animate__lightSpeedInRight"}
           height="69px"
         >
           Easily plan your ideal ski trip from home with the help of
@@ -176,6 +179,7 @@ const NavBar = () => {
               transform: "scale(.97)",
             },
           }}
+          className={"animate__animated animate__backInUp"}
         >
           Book Here
         </Button>
