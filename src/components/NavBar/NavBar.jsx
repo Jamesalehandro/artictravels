@@ -20,7 +20,10 @@ import mountain from "../../assets/Images/mountain.jpg";
 import { useState } from "react";
 
 const NavBar = () => {
+  // Hooks
   const [animae, setAnimae] = useState(false);
+
+  // Functions
   const handleClick = (e) => {
     setAnimae((prev) => !prev);
     if (animae) {
@@ -31,6 +34,7 @@ const NavBar = () => {
       e.target.classList.add("animate__bounce");
     }
   };
+
   return (
     <Box
       w={"100%"}
