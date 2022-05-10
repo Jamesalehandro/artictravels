@@ -17,6 +17,7 @@ import { BiUser, BiChevronDown } from "react-icons/bi";
 import { BsCalendar4 } from "react-icons/bs";
 import mountain from "../../assets/Images/mountain.jpg";
 import { useState } from "react";
+import Typical from "react-typical";
 
 const NavBar = () => {
   // Hooks
@@ -159,6 +160,11 @@ const NavBar = () => {
           className={"animate__animated animate__backInDown"}
           mb={-10}
         >
+          <Typical
+            loop={Infinity}
+            wrapper={"p"}
+            steps={["Welcome", 5000, " Plan the perfect winter trip", 20000]}
+          />
           Plan the perfect winter trip
         </Text>
 
