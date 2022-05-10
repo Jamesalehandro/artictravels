@@ -165,7 +165,6 @@ const NavBar = () => {
             wrapper={"p"}
             steps={["Welcome", 5000, " Plan the perfect winter trip", 20000]}
           />
-          Plan the perfect winter trip
         </Text>
 
         <Text
