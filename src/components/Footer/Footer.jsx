@@ -6,26 +6,27 @@ import {
   Stack,
   Text,
   VStack,
-} from "@chakra-ui/react";
-import React from "react";
-import { IoMdAirplane } from "react-icons/io";
-import { RiFacebookFill } from "react-icons/ri";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaTwitter } from "react-icons/fa";
+} from '@chakra-ui/react';
+import React from 'react';
+import { IoMdAirplane } from 'react-icons/io';
+import { RiFacebookFill } from 'react-icons/ri';
+import { AiFillInstagram } from 'react-icons/ai';
+import { FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <Box
       width="100%"
-      minH={"500px"}
-      display="flex"
-      align="center"
-      justify="center"
+      minH={'500px'}
+      display={'flex'}
+      align={'center'}
+      justify={'center'}
+      flexDirection={['column', 'column', 'column', 'row']}
     >
       <VStack
-        w={"50%"}
-        minH={"200px"}
-        align="flex-start"
+        w={'50%'}
+        minH={'200px'}
+        align={'flex-start'}
         ml={20}
         mt={10}
         mb={3}
@@ -33,8 +34,8 @@ const Footer = () => {
         <Circle
           zIndex={1000}
           p={2}
-          cursor={"pointer"}
-          background={"#fff"}
+          cursor={'pointer'}
+          background={'#fff'}
           border="0.1px solid #C1C0C0"
           mb={4}
         >
@@ -64,35 +65,35 @@ const Footer = () => {
           Book your trip in minutes, get full control for much longer.
         </Text>
 
-        <HStack width={"100%"} gap={4} pt={6}>
+        <HStack width={'100%'} gap={4} pt={6}>
           <Circle
             zIndex={1000}
             p={2}
-            cursor={"pointer"}
-            background={"#fff"}
+            cursor={'pointer'}
+            background={'#fff'}
             border="0.3px solid #C1C0C0"
           >
-            <RiFacebookFill color={" rgba(62, 134, 245, 1)"} size="20px " />
+            <RiFacebookFill color={' rgba(62, 134, 245, 1)'} size="20px " />
           </Circle>
 
           <Circle
             zIndex={1000}
             p={2}
-            cursor={"pointer"}
-            background={"#fff"}
+            cursor={'pointer'}
+            background={'#fff'}
             border="0.3px solid #C1C0C0"
           >
-            <AiFillInstagram size="20px" color={" rgba(62, 134, 245, 1)"} />
+            <AiFillInstagram size="20px" color={' rgba(62, 134, 245, 1)'} />
           </Circle>
 
           <Circle
             zIndex={1000}
             p={2}
-            cursor={"pointer"}
-            background={"#fff"}
+            cursor={'pointer'}
+            background={'#fff'}
             border="0.3px solid #C1C0C0"
           >
-            <FaTwitter size="20px" color={" rgba(62, 134, 245, 1)"} />
+            <FaTwitter size="20px" color={' rgba(62, 134, 245, 1)'} />
           </Circle>
         </HStack>
 
@@ -106,14 +107,14 @@ const Footer = () => {
           textAlign="left"
           lineHeight="35px"
           pb={2}
-          cursor={"pointer"}
+          cursor={'pointer'}
         >
           &copy;2022 Arctic Travels - All right reserved.
         </Text>
       </VStack>
 
       <HStack width="50%" align="flex-start" mt={10} mb={3} gap={5}>
-        <VStack w={"30%"} minH={"100%"} align="flex-start">
+        <VStack w={'30%'} minH={'100%'} align="flex-start">
           <Text
             width="80px"
             minHeight="21px"
@@ -123,7 +124,7 @@ const Footer = () => {
             lineHeight="21px"
             color="#3E86F5"
             mb={5}
-            cursor={"pointer"}
+            cursor={'pointer'}
           >
             COMPANY
           </Text>
@@ -135,12 +136,12 @@ const Footer = () => {
             textAlign="left"
             lineHeight="21px"
             color="#031530"
-            fontStyle={"normal"}
+            fontStyle={'normal'}
             gap={3}
           >
-            <Text cursor={"pointer"}>About</Text>
-            <Text cursor={"pointer"}>Careers</Text>
-            <Text cursor={"pointer"}>Mobile</Text>
+            <Text cursor={'pointer'}>About</Text>
+            <Text cursor={'pointer'}>Careers</Text>
+            <Text cursor={'pointer'}>Mobile</Text>
           </Stack>
 
           <Spacer />
@@ -152,13 +153,13 @@ const Footer = () => {
             textAlign="left"
             lineHeight="35px"
             pb={2}
-            cursor={"pointer"}
+            cursor={'pointer'}
           >
             Privacy Policy
           </Text>
         </VStack>
 
-        <VStack w={"30%"} minH={"100%"} align="flex-start">
+        <VStack w={'30%'} minH={'100%'} align="flex-start">
           <Text
             width="80px"
             minHeight="21px"
@@ -168,7 +169,7 @@ const Footer = () => {
             lineHeight="21px"
             color="#3E86F5"
             mb={5}
-            cursor={"pointer"}
+            cursor={'pointer'}
           >
             Contact
           </Text>
@@ -180,12 +181,12 @@ const Footer = () => {
             textAlign="left"
             lineHeight="21px"
             color="#031530"
-            fontStyle={"normal"}
+            fontStyle={'normal'}
             gap={3}
           >
-            <Text cursor={"pointer"}>FAQ</Text>
-            <Text cursor={"pointer"}>Press</Text>
-            <Text cursor={"pointer"}>Affiliates</Text>
+            <Text cursor={'pointer'}>FAQ</Text>
+            <Text cursor={'pointer'}>Press</Text>
+            <Text cursor={'pointer'}>Affiliates</Text>
           </Stack>
 
           <Spacer />
@@ -203,7 +204,7 @@ const Footer = () => {
           </Text>
         </VStack>
 
-        <VStack w={"30%"} minH={"100%"} align="flex-start">
+        <VStack w={'30%'} minH={'100%'} align="flex-start">
           <Text
             width="80px"
             minHeight="21px"
@@ -213,7 +214,7 @@ const Footer = () => {
             lineHeight="21px"
             color="#3E86F5"
             mb={5}
-            cursor={"pointer"}
+            cursor={'pointer'}
           >
             MORE
           </Text>
@@ -225,12 +226,12 @@ const Footer = () => {
             textAlign="left"
             lineHeight="21px"
             color="#031530"
-            fontStyle={"normal"}
+            fontStyle={'normal'}
             gap={3}
           >
-            <Text cursor={"pointer"}>Airlines</Text>
-            <Text cursor={"pointer"}>Airfees</Text>
-            <Text cursor={"pointer"}>Lowfare Tips</Text>
+            <Text cursor={'pointer'}>Airlines</Text>
+            <Text cursor={'pointer'}>Airfees</Text>
+            <Text cursor={'pointer'}>Lowfare Tips</Text>
           </Stack>
         </VStack>
       </HStack>

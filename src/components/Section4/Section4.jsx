@@ -20,7 +20,6 @@ const Section4 = () => {
         minH={'700px'}
         align="flex-start"
         pl={[0, 0, 0, 20]}
-        border={'1px solid black'}
         sx={{
           '@media (min-width:1920px) ': {
             alignItems: 'flex-end',
@@ -35,7 +34,6 @@ const Section4 = () => {
           w={['351px', '410px', '551px', '451px', '491px']}
           textAlign={'left'}
           pl={[10, 10, 10, 0, 20]}
-          border={'1px solid black'}
         >
           The best resorts to chill and relax
         </Text>
