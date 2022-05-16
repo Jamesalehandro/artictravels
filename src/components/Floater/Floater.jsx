@@ -10,7 +10,7 @@ import mastercard2 from '../../assets/Images/mastercard2.png';
 const Floater = () => {
   return (
     <HStack
-      w={'100%'}
+      maxW={'100%'}
       minH={'27vh'}
       align={'flex-end'}
       justify={'center'}
@@ -21,7 +21,6 @@ const Floater = () => {
         position="relative"
         direction="row"
         width={['100%', '100%', '70%']}
-        border={'1px solid black'}
         minH={'5vh'}
         align="center"
         justify="space-between"
