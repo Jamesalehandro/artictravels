@@ -235,7 +235,7 @@ const NavBar = () => {
         minH={'140px'}
         gap={7}
         left={['35px', '40px', '60px', '85px']}
-        top={[' 350px', '420px', '410px', '550px']}
+        top={[' 340px', '340px', '340px', '550px']}
         bgColor={'white'}
         boxShadow="0px 134px 193px rgba(183, 183, 183, 0.07), 0px 16.7789px 24.1666px rgba(183, 183, 183, 0.035)"
         borderRadius={'10px'}
@@ -244,7 +244,7 @@ const NavBar = () => {
         pr={3}
         sx={{
           '@media (min-width:1280px) and (max-width:1439px)': {
-            left: '100px',
+            left: '120px',
             top: '700px',
             w: '1100px',
           },

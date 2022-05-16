@@ -1,35 +1,44 @@
-import React from "react";
-import { Circle, Flex, HStack, Image, Stack } from "@chakra-ui/react";
-import nike from "../../assets/Images/nike.png";
-import pay from "../../assets/Images/pay.png";
-import apple from "../../assets/Images/apple.png";
-import star from "../../assets/Images/star.png";
-import intra from "../../assets/Images/intra.png";
-import mastercard2 from "../../assets/Images/mastercard2.png";
+import React from 'react';
+import { Circle, Flex, HStack, Image, Stack } from '@chakra-ui/react';
+import nike from '../../assets/Images/nike.png';
+import pay from '../../assets/Images/pay.png';
+import apple from '../../assets/Images/apple.png';
+import star from '../../assets/Images/star.png';
+import intra from '../../assets/Images/intra.png';
+import mastercard2 from '../../assets/Images/mastercard2.png';
 
 const Floater = () => {
   return (
     <HStack
-      w={"100%"}
-      minH={"27vh"}
-      align={"flex-end"}
-      justify={"center"}
-      bgColor={"#F7F8FB"}
-      pb={6}
+      w={'100%'}
+      minH={'27vh'}
+      align={'flex-end'}
+      justify={'center'}
+      bgColor={'#F7F8FB'}
+      pb={[2, 2, 2, 10, 10]}
     >
       <Stack
         position="relative"
         direction="row"
-        width="70%"
-        minH={"5vh"}
+        width={['100%', '70%']}
+        minH={'5vh'}
         align="center"
         justify="space-between"
       >
-        <Flex direction="column" cursor="pointer">
-          <Image src={nike} boxSize={"65px"} />
+        <Flex
+          direction="column"
+          cursor="pointer"
+          display={['none', 'none', 'none', 'flex']}
+        >
+          <Image src={nike} boxSize={'65px'} />
         </Flex>
 
-        <Flex align="center" justify="center" cursor="pointer">
+        <Flex
+          align="center"
+          justify="center"
+          cursor="pointer"
+          display={['none', 'none', 'none', 'flex']}
+        >
           <Image src={apple} pb={3} mr={2} />
           <Image src={pay} />
         </Flex>
@@ -48,7 +57,7 @@ const Floater = () => {
           direction="column"
           cursor="pointer"
         >
-          <Image src={mastercard2} boxSize={"65px"} />
+          <Image src={mastercard2} boxSize={'65px'} />
         </Flex>
       </Stack>
     </HStack>
