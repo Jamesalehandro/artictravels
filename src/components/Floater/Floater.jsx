@@ -20,7 +20,7 @@ const Floater = () => {
       <Stack
         position="relative"
         direction="row"
-        width={['100%', '70%']}
+        width={['100%', '100%', '70%']}
         minH={'5vh'}
         align="center"
         justify="space-between"
