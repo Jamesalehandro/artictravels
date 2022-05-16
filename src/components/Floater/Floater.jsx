@@ -21,9 +21,11 @@ const Floater = () => {
         position="relative"
         direction="row"
         width={['100%', '100%', '70%']}
+        border={'1px solid black'}
         minH={'5vh'}
         align="center"
         justify="space-between"
+        px={[0, 10]}
       >
         <Flex
           direction="column"
