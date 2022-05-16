@@ -19,6 +19,7 @@ const Section3 = () => {
         position={'relative'}
         justify={'flex-start'}
         align={'flex-end'}
+        pb={10}
         sx={{
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
@@ -48,10 +49,10 @@ const Section3 = () => {
         <Text
           zIndex={10000}
           fontWeight={600}
-          fontSize={'55px'}
+          fontSize={['25px', '25px', '25px', '55px']}
           lineHeight="54px"
           w={'592px'}
-          textAlign={'right'}
+          textAlign={['left', 'left', 'left', 'right']}
           className="transformText"
         >
           Mountain Resort
@@ -63,6 +64,8 @@ const Section3 = () => {
         minH={'900px'}
         bgImage={blackskater}
         position={'relative'}
+        ustify={'flex-start'}
+        align={'flex-end'}
         sx={{
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
@@ -92,10 +95,10 @@ const Section3 = () => {
         <Text
           zIndex={10000}
           fontWeight={600}
-          fontSize={'55px'}
+          fontSize={['25px', '25px', '25px', '55px']}
           lineHeight="108px"
           w={'592px'}
-          textAlign={'right'}
+          textAlign={['left', 'left', 'left', 'right']}
           className="transformText1"
         >
           Fuji Mountain
@@ -107,6 +110,8 @@ const Section3 = () => {
         minH={'900px'}
         bgImage={blueskater}
         position={'relative'}
+        ustify={'flex-start'}
+        align={'flex-end'}
         sx={{
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
@@ -137,10 +142,10 @@ const Section3 = () => {
         <Text
           zIndex={10000}
           fontWeight={600}
-          fontSize={'55px'}
+          fontSize={['25px', '25px', '25px', '55px']}
           lineHeight="108px"
           w={'592px'}
-          textAlign={'right'}
+          textAlign={['left', 'left', 'left', 'right']}
           className="transformText2"
         >
           Freezing WinterLake

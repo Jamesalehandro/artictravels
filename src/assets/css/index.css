@@ -53,6 +53,45 @@ span{
     color: #3E86F5;
 }
 
+@media (max-width:480px){
+    .transformText,.transformText1,.transformText2{
+        position: relative;
+        transform: rotate(0deg);
+        left: 10%;
+        bottom: 0%;
+        font-size: 32px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+.transformText,
+    .transformText1,
+    .transformText2 {
+        position: relative;
+        transform: rotate(0deg);
+        left: 10%;
+        font-size: 32px;
+            bottom: 0%;
+    }
+   
+}
+
+@media (min-width:769px) and (max-width:991px) {
+
+    .transformText,
+    .transformText1,
+    .transformText2 {
+        position: relative;
+        transform: rotate(0deg);
+        left: 10%;
+        font-size: 32px;
+            bottom: 0%;
+    }
+
+}
+
+
+
 /* For Desktop */
 @media (min-width:1280px) and (max-width:1439px){
     /* Section3 */
