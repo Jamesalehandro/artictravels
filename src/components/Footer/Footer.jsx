@@ -122,7 +122,7 @@ const Footer = () => {
       <HStack
         w={['100%', '100%', '100%', '100%', '30%']}
         align="flex-start"
-        flexWrap={'wrap'}
+        flexWrap={['wrap', 'wrap', 'wrap', 'wrap', 'nowrap']}
         mt={10}
         mb={3}
         gap={5}
