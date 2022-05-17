@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   Box,
   Circle,
@@ -7,7 +8,6 @@ import {
   Text,
   VStack,
 } from '@chakra-ui/react';
-import React from 'react';
 import { IoMdAirplane } from 'react-icons/io';
 import { RiFacebookFill } from 'react-icons/ri';
 import { AiFillInstagram } from 'react-icons/ai';
@@ -21,7 +21,7 @@ const Footer = () => {
       display={'flex'}
       align={'center'}
       justify={'center'}
-      flexDirection={['column', 'column', 'column', 'row']}
+      flexDirection={['column', 'column', 'column', 'row', 'row']}
     >
       <VStack
         w={'50%'}
@@ -65,7 +65,12 @@ const Footer = () => {
           Book your trip in minutes, get full control for much longer.
         </Text>
 
-        <HStack width={'100%'} gap={4} pt={6}>
+        <HStack
+          width={'100%'}
+          gap={4}
+          pt={6}
+          display={['none', 'none', 'none', 'none', 'flex']}
+        >
           <Circle
             zIndex={1000}
             p={2}
@@ -108,13 +113,26 @@ const Footer = () => {
           lineHeight="35px"
           pb={2}
           cursor={'pointer'}
+          display={['none', 'none', 'none', 'none', 'flex']}
         >
           &copy;2022 Arctic Travels - All right reserved.
         </Text>
       </VStack>
 
-      <HStack width="50%" align="flex-start" mt={10} mb={3} gap={5}>
-        <VStack w={'30%'} minH={'100%'} align="flex-start">
+      <HStack
+        w={['100%', '100%', '100%', '100%', '30%']}
+        align="flex-start"
+        flexWrap={'wrap'}
+        mt={10}
+        mb={3}
+        gap={5}
+        pl={10}
+      >
+        <VStack
+          w={['40%', '40%', '40%', '50%', '30%']}
+          minH={'100%'}
+          align="flex-start"
+        >
           <Text
             width="80px"
             minHeight="21px"
@@ -159,7 +177,11 @@ const Footer = () => {
           </Text>
         </VStack>
 
-        <VStack w={'30%'} minH={'100%'} align="flex-start">
+        <VStack
+          w={['40%', '40%', '40%', '50%', '30%']}
+          minH={'100%'}
+          align="flex-start"
+        >
           <Text
             width="80px"
             minHeight="21px"
@@ -204,7 +226,11 @@ const Footer = () => {
           </Text>
         </VStack>
 
-        <VStack w={'30%'} minH={'100%'} align="flex-start">
+        <VStack
+          w={['40%', '40%', '40%', '50%', '30%']}
+          minH={'100%'}
+          align="flex-start"
+        >
           <Text
             width="80px"
             minHeight="21px"
