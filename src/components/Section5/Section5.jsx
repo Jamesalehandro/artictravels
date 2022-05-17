@@ -5,7 +5,7 @@ import snowboarder from '../../assets/Images/girlwithskates1.jpg';
 const Section5 = () => {
   return (
     <Box
-      w={'100%'}
+      maxW={'100%'}
       minHeight={['418px', '418px', '418px', '750px', '750px']}
       position={'relative'}
       px={20}

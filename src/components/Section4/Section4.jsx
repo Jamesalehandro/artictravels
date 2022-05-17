@@ -8,7 +8,7 @@ import property from '../../assets/Images/Property.png';
 const Section4 = () => {
   return (
     <Box
-      w={'100%'}
+      maxW={'100%'}
       minH={'700px'}
       display={'flex'}
       pt={20}

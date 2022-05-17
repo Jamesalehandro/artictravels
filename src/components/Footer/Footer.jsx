@@ -16,7 +16,7 @@ import { FaTwitter } from 'react-icons/fa';
 const Footer = () => {
   return (
     <Box
-      width="100%"
+      maxW={'100%'}
       minH={'500px'}
       display={'flex'}
       align={'center'}

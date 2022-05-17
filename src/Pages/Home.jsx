@@ -10,7 +10,7 @@ import Floater from '../components/Floater/Floater';
 
 const Home = () => {
   return (
-    <Box maxWidth="100%" minHeight="100vh">
+    <Box maxWidth={'100%'} minHeight={'100vh'}>
       <NavBar />
       <Floater />
       <Section2 />

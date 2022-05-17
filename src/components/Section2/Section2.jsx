@@ -5,7 +5,7 @@ import worldMap2 from '../../assets/Images/james.png';
 const Section2 = () => {
   return (
     <Box
-      w={'100%'}
+      maxW={'100%'}
       minH={'730px'}
       bgcolor={'#F8F9FC'}
       position="relative"

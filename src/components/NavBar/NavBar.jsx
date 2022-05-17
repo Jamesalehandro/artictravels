@@ -38,7 +38,7 @@ const NavBar = () => {
 
   return (
     <Box
-      w={'100%'}
+      maxW={'100%'}
       minHeight={['618px', '618px', '618px', '618px', '780px']}
       position={'relative'}
       px={[3, 3, 3, 5, 20]}
