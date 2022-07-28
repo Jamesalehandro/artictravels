@@ -40,7 +40,6 @@ const NavBar = () => {
     <Box
       maxW={'100%'}
       minHeight={['618px', '618px', '618px', '618px', '780px']}
-      position={'relative'}
       px={[3, 3, 3, 5, 20]}
       pt={5}
       sx={{

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Box, HStack, Text } from '@chakra-ui/react';
 import girltourist from '../../assets/Images/girltourist.jpg';
 import blackskater from '../../assets/Images/blackskater.jpg';
 import blueskater from '../../assets/Images/blueskater.jpg';
+import { Box, HStack, Text } from '@chakra-ui/react';
 
 const Section3 = () => {
   return (
@@ -10,6 +10,7 @@ const Section3 = () => {
       maxW={'100%'}
       minH={'900px'}
       display={'flex'}
+      overflow={'hidden'}
       flexDirection={['column', 'column', 'column', 'row', 'row']}
     >
       <HStack
@@ -110,7 +111,7 @@ const Section3 = () => {
         minH={'900px'}
         bgImage={blueskater}
         position={'relative'}
-        ustify={'flex-start'}
+        justify={'center'}
         align={'flex-end'}
         sx={{
           backgroundRepeat: 'no-repeat',
